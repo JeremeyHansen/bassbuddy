@@ -2,6 +2,7 @@
 
     
     .map-container{
+        position: sticky;
         width: 65%;
         height: 400px;
         margin: auto;
@@ -75,7 +76,7 @@
     }
     .map-container{
         width: 85%;
-        height: 280px;
+        height: 200px;
         margin: auto;
     }
     .map-artist-title{
