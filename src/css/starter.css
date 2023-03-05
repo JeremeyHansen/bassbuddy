@@ -468,7 +468,8 @@
     opacity: 0;   
 
   }
-  .note-5 {
+  .note-5 {    display: none;
+
     color: #05386b;
     position: absolute;
     margin-left: 90%;
@@ -480,7 +481,8 @@
     -webkit-filter: blur(2px);
     animation: notefall 0.7s linear infinite;
   }
-  .note2-5 {
+  .note2-5 {    display: none;
+
     color: #05386b;
     position: absolute;
     margin-right: 90%;
@@ -491,7 +493,8 @@
     animation: notefall2 1s linear infinite;
     -webkit-filter: blur(1px);
   }
-  .note-6 {
+  .note-6 {    display: none;
+
     color: #05386b;
     position: absolute;
     margin-right: 70%;
@@ -504,7 +507,8 @@
     animation: notefall3 1.5s linear infinite;
     -webkit-filter: blur(2px);
   }
-  .note2-6 {
+  .note2-6 {    display: none;
+
     color: #05386b;
     position: absolute;
     margin-left: 70%;
@@ -516,7 +520,8 @@
     animation: notefall3 1.75s linear infinite;
     -webkit-filter: blur(1px);
   }
-  .note-7 {
+  .note-7 {    display: none;
+
     color: #05386b;
     position: absolute;
     margin-left: 50%;
@@ -527,7 +532,8 @@
     opacity: 0;
     z-index: -1;
   }
-  .note2-7 {
+  .note2-7 {    display: none;
+
     color: #05386b;
     position: absolute;
     margin-right: 50%;
@@ -539,7 +545,8 @@
     -webkit-filter: blur(3px);
     animation: notefall 1.2s linear infinite;
   }
-  .note-8 {
+  .note-8 {    display: none;
+
     color: #05386b;
     position: absolute;
     margin-right: 30%;
@@ -550,7 +557,8 @@
     font-size: 1rem;
     animation: notefall2 2s linear infinite;
   }
-  .note2-8 {
+  .note2-8 {    display: none;
+
     color: #05386b;
     position: absolute;
     opacity: 0;
