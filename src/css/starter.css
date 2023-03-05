@@ -14,7 +14,7 @@
     place-items: center;
     text-align: center;
     background-color: #5cdb95;
-    z-index: 2;
+    z-index: 10;
   }
   .line-1 {
     position: fixed;
