@@ -354,7 +354,6 @@
     width: 100%;
     animation: line1 2s linear;
     opacity: 0;
-    display: none;
   }
   @keyframes line1 {
     0% {
@@ -379,7 +378,7 @@
     border-color: #05386b;
     width: 100%;
     animation: line2 2s linear;
-    opacity: 0;    display: none;
+    opacity: 0;  
 
   }
   @keyframes line2 {
@@ -404,7 +403,7 @@
     border-color: #05386b;
     width: 100%;
     animation: line2 2s linear;
-    opacity: 0;    display: none;
+    opacity: 0;  
 
   }
 
@@ -414,7 +413,7 @@
     margin-bottom: 65px;
     border-width: 2px;
     border-color: #05386b;
-    width: 100%;    display: none;
+    width: 100%;    
 
     /* animation: line3 1s linear infinite */
   }
@@ -424,7 +423,7 @@
     margin-top: 65px;
     border-width: 2px;
     border-color: #05386b;
-    width: 100%;    display: none;
+    width: 100%;    
 
     /* animation: line3 1s linear infinite */
   }
@@ -436,7 +435,7 @@
     border-color: #05386b;
     width: 100%;
     animation: line2 3s linear;
-    opacity: 0;    display: none;
+    opacity: 0;    
 
   }
 
@@ -446,7 +445,7 @@
     margin-bottom: 125px;
     border-width: 1.5px;
     border-color: #05386b;
-    width: 100%;    display: none;
+    width: 100%;    
 
   }
   .line-8 {
@@ -455,7 +454,7 @@
     margin-top: 140px;
     border-width: 1.5px;
     border-color: #05386b;
-    width: 100%;    display: none;
+    width: 100%;   
 
   }
   .line-9 {
@@ -466,7 +465,7 @@
     border-color: #05386b;
     width: 100%;
     animation: line1 3s linear;
-    opacity: 0;    display: none;
+    opacity: 0;   
 
   }
   .note-5 {
