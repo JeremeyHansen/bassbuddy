@@ -114,7 +114,7 @@ body {
 
   }
   .nav {
-    /* align-items: center; */
+    align-items: center;
     padding: none;
     overflow: hidden;
   }
