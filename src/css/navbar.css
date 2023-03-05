@@ -110,9 +110,11 @@ body {
 @media only screen and (max-width: 480px) {
   .hamburger{
     display: contents;
+    z-index: 11;
+
   }
   .nav {
-    align-items: center;
+    /* align-items: center; */
     padding: none;
     overflow: hidden;
   }
@@ -120,20 +122,28 @@ body {
     font-size: 1.5rem;
   }
   .mobile-nav{
-    position: absolute;
+    position: sticky;
+    margin-left: 50%;
     background-color: white;
-    top: 68px;
-    right: 0;
+    justify-content: center;
     width: 50%;
-    border-style: solid;
+    text-align: right;
+
+    /* border-style: solid;
     border-color: #05386b;
-    border-width: 0 0px 3px 2px;
-    border-radius: 0 0px 0px 5px;
+    border-width: 0 0px 3px 0px; */
     background-color: #5cdb95;
     display: grid;
-    z-index: 0;
     height: 20vh;
     animation: downDrop 0.3s linear;
+  }
+
+  .mobile-nav li{
+    text-align: right;
+    width: 130px;
+    border-style: solid;
+    border-color: #edf5e1;
+    border-width: 0 0px 3px 0px;
   }
 
   @keyframes downDrop {
@@ -155,7 +165,7 @@ body {
   }
   .nav li {
     text-transform: lowercase;
-    margin-left: 30px;
+    padding: 0;
   }
 
   .nav a {
