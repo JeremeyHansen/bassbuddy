@@ -1,0 +1,102 @@
+@media only screen and (max-width: 2500px) {
+
+    
+    .map-container{
+        width: 65%;
+        height: 400px;
+        margin: auto;
+        text-align: left;
+        margin-top: 20px;
+        /* background-color: purple; */
+        border-style: solid;
+        border-width: 4px;
+        border-color: #66d497;
+        box-shadow: #57a379 0 0 20px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+
+    .map-card{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .map-card span{
+        color: #5cdb95;
+        font-weight: bold;
+    }
+    .map-title{
+        font-size: 1.2rem;
+        background-color: #5cdb95;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-color: #5cdb95;
+        border-style: solid;
+        border-width:5px;
+        border-radius: 5px;
+    
+    }
+    .map-artist-container{
+        display: block;
+        overflow: scroll;
+        font-size: 1.2rem
+    
+    }
+    .map-artist-title{
+        font-size: 1.2rem;
+        color: #5cdb95;
+        font-weight: bold;
+    }
+    
+    .map-artist-list{
+        font-size: 1.2rem
+    }
+    .map-address{
+        font-size: 1.2rem
+    
+    }
+    .map-date{
+        font-size: 1.2rem
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .map-title{
+        font-size: .8rem
+    
+    }
+    .map-artist-container{
+        display: inline-block;
+        overflow: scroll;
+        font-size: .8rem
+    
+    }
+    .map-container{
+        width: 85%;
+        height: 280px;
+        margin: auto;
+    }
+    .map-artist-title{
+        font-size: .8rem;
+        color: #5cdb95;
+        font-weight: bold;
+    }
+    
+    .map-artist-list{
+        font-size: .8rem
+    }
+    .map-address{
+        font-size: .8rem
+    
+    }
+    .map-date{
+        font-size: .8rem
+    }
+    .map-card{
+        width: 100%;
+        height: 15vh;
+        overflow: scroll;
+    }
+}

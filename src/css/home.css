@@ -1,0 +1,118 @@
+@media only screen and (max-width: 2000px) {
+  .music-notes {
+    -webkit-filter: blur(5px);
+  }
+
+  .home-container {
+    width: 100%;
+  }
+
+  .home-background {
+    width: 100%;
+    height: 92vh;
+  }
+
+  .find-shows-btn {
+    border-style: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #5cdb95;
+    color: #edf5e1;
+    background-color: #05386b;
+    padding: 5px;
+    transition: 0.3s linear;
+  }
+
+  .find-shows-btn:hover {
+    background-color: #5cdb95;
+    color: #05386b;
+    box-shadow: 0 0 10px #5cdb95, 0 0 20px #5cdb95;
+  }
+  .shows-text {
+    color: #edf5e1;
+    text-decoration: none;
+    font-family: monospace;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: 0.3s linear;
+  }
+
+  .shows-text:hover {
+    color: #05386b;
+  }
+  
+  .home-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    right: 30%;
+  }
+
+  .main-text {
+    font-family: monospace;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #05386b;
+  }
+
+  .tabs {
+    background-color: lightgreen;
+    color: white;
+    padding: 20px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    align: left;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .home-text {
+    margin: auto;
+    width: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+  }
+  .main-text h6 {
+    font-size: .9rem;
+  }
+  .main-text span {
+    color: #5cdb95;
+  }
+  .note-container {
+    z-index: -10;
+  }
+  .note-container {
+    max-height: 70px;
+  }
+  .find-shows-btn {
+    margin-top: 30px;
+    border-style: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #5cdb95;
+    color: #edf5e1;
+    background-color: #05386b;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: #5cdb95 0 0 10px, 0 0 20px;
+  }
+  .paragraph-class{
+    text-align: center;
+    margin-top: 150px;
+    text-transform: lowercase;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .paragraph-class h3{
+    font-family: monospace;
+    color: #05386b;
+  }
+  .she-gone{
+    display: none;
+  }
+}
