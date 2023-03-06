@@ -468,7 +468,7 @@
     opacity: 0;   
 
   }
-  .note-5 {    display: none;
+  .note-5 {
 
     color: #05386b;
     position: absolute;
@@ -479,9 +479,9 @@
     z-index: -1;
 
     -webkit-filter: blur(2px);
-    animation: notefall 0.7s linear infinite;
+    animation: notefall 2.7s linear infinite;
   }
-  .note2-5 {    display: none;
+  .note2-5 {
 
     color: #05386b;
     position: absolute;
@@ -490,10 +490,10 @@
     font-size: 1.2rem;
     opacity: 0;
     z-index: -1;
-    animation: notefall2 1s linear infinite;
+    animation: notefall2 3.1s linear infinite;
     -webkit-filter: blur(1px);
   }
-  .note-6 {    display: none;
+  .note-6 {
 
     color: #05386b;
     position: absolute;
@@ -504,10 +504,10 @@
     font-size: 1rem;
     opacity: 0;
 
-    animation: notefall3 1.5s linear infinite;
+    animation: notefall3 3.5s linear infinite;
     -webkit-filter: blur(2px);
   }
-  .note2-6 {    display: none;
+  .note2-6 {
 
     color: #05386b;
     position: absolute;
@@ -517,22 +517,22 @@
 
     top: 0;
     font-size: 0.8rem;
-    animation: notefall3 1.75s linear infinite;
+    animation: notefall3 2.75s linear infinite;
     -webkit-filter: blur(1px);
   }
-  .note-7 {    display: none;
+  .note-7 {
 
     color: #05386b;
     position: absolute;
     margin-left: 50%;
     top: 0;
     font-size: 1.5rem;
-    animation: notefall2 2.1s linear infinite;
+    animation: notefall2 2.9s linear infinite;
     -webkit-filter: blur(1px);
     opacity: 0;
     z-index: -1;
   }
-  .note2-7 {    display: none;
+  .note2-7 {
 
     color: #05386b;
     position: absolute;
@@ -543,9 +543,9 @@
     top: 0;
     font-size: 1.6rem;
     -webkit-filter: blur(3px);
-    animation: notefall 1.2s linear infinite;
+    animation: notefall 2.2s linear infinite;
   }
-  .note-8 {    display: none;
+  .note-8 {
 
     color: #05386b;
     position: absolute;
@@ -555,9 +555,9 @@
     z-index: -1;
 
     font-size: 1rem;
-    animation: notefall2 2s linear infinite;
+    animation: notefall2 3s linear infinite;
   }
-  .note2-8 {    display: none;
+  .note2-8 {   
 
     color: #05386b;
     position: absolute;
@@ -567,7 +567,7 @@
     margin-left: 30%;
     top: 0;
     font-size: 1.2rem;
-    animation: notefall3 1.2s linear infinite;
+    animation: notefall3 3.2s linear infinite;
   }
   @keyframes notefall {
     0% {
