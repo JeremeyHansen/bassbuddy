@@ -9,8 +9,6 @@ import City from './components/City.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-
 function App() {
   const [className, setClassName] = useState('startscreen')
 
